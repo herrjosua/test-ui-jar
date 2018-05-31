@@ -1,12 +1,12 @@
 import { Directive } from '@angular/core';
 
 @Directive({
-  selector: '[warning]',
+  selector: '[alert-primary]',
   host: {
-    'class': 'warning'
+    'class': 'alert-primary'
   }
 })
-export class ButtonWarningDirective {
+export class AlertPrimaryDirective {
 
   constructor() { }
 

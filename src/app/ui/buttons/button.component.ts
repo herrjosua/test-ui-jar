@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'button[primary], button[secondary], button[warning]',
   templateUrl: './button.component.html',
-  styleUrls: ['./button.component.css']
+  styleUrls: ['./button.component.scss']
 })
 export class ButtonComponent implements OnInit {
 
